@@ -1,0 +1,35 @@
+input{
+    border-radius: 5px;
+    
+}
+textarea{
+    border-radius: 5px;
+    border: #FF007F;
+}
+label{
+   margin: 10px; 
+}
+h2{
+    font-family: 'Lobster', sans-serif;
+}
+
+.form{
+    
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    padding:10px;
+    color: #fff;
+    height: 250px;
+    border-radius: 15px;
+    margin-top: 50px;
+    background: #FB6F92; 
+	background: -webkit-linear-gradient(to right, #ff8fab, #ff0080e3);
+
+	background: -webkit-linear-gradient(left,#FF8FAB, #ff0080e3);
+	background: -o-linear-gradient(left, #ff8fab, #ff0080e3);
+	background: linear-gradient(to right, #ff8fab, #ff0080e3); 
+	-webkit-box-shadow: 0 0 40px rgb(0, 0, 0.6); 
+	        box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+            
+}

@@ -1,12 +1,31 @@
 .App {
   text-align: center;
+ 
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+#bigtitle{
+  font-family: 'Lobster', sans-serif;
+  position:fixed ;
+  width:100%;
+  margin-top: 0px;
 
+}
+h1{
+  font-family: 'Belanosima', sans-serif;
+}
+input{
+  margin-top: 50px;
+  border: #FF007F;
+}
+input::placeholder{
+  color: #FF007F;
+  font-family: 'Belanosima', sans-serif;
+  text-align: center;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
