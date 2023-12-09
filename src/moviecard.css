@@ -8,6 +8,13 @@ body {
    
 }
 
+p{
+	color: #FF007F;
+	
+}
+iframe{
+	border-radius: 15px;
+}
 .main_card {
 	color: #fff;
 	width: 760px;

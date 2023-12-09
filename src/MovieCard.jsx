@@ -5,6 +5,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlay } from '@fortawesome/free-solid-svg-icons'; 
 import StarRating from './StarRating'; // Import the StarRating component
 import './moviecard.css';
+import { Link } from 'react-router-dom';
+
 
 const MovieCard = ({ movie }) => {
   return (
@@ -25,14 +27,15 @@ const MovieCard = ({ movie }) => {
                   </p>
                 
                 </div>
-                <p className="disc">{movie.description}</p>
+                
                 <div className="social-btn">
-                <a href={movie.trailerURL} target="_blank" rel="noopener noreferrer">
+                
                     <button>
-                      <FontAwesomeIcon icon={faPlay} /> SEE TRAILER
+                      <FontAwesomeIcon icon={faPlay} />
+                      <Link to={`/details/${movie.id}`} style={{color:'#fff'}}> SEE TRAILER</Link>
                   {/* the link is clickible ;) */}
                     </button>
-                  </a>
+                
                 </div>
               </div>
             </div>
